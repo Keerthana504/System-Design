@@ -1,0 +1,119 @@
+body {
+  font-size: 1rem;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+body:focus {
+  border: 1.5rem dotted black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav li:first-child a {
+  font-size: 2rem;
+}
+
+footer nav li:first-child a {
+  font-size: 1.5rem;
+}
+
+nav li a {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgb(195, 7, 7);
+}
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+section {
+  margin: 20px;
+}
+
+#register {
+  border: 0.1rem solid black;
+  padding: 1rem;
+  margin: 5rem;
+}
+
+#register h1 {
+  text-align: center;
+}
+
+.btn {
+  text-align: right;
+  /* border-top: 0.1rem solid black; */
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: right;
+}
+
+button {
+  text-align: center;
+  background-color: rgb(79, 79, 242);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#cancel {
+  order: 5;
+  position: absolute;
+  top: 45%;
+  right: 40%;
+}
+
+#submit {
+  order: 4;
+  position: absolute;
+  top: 45%;
+  right: 35%;
+}
+
+input {
+  margin-left: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+}
+
+#name {
+  order: 3;
+}
+
+#email {
+  order: 2;
+}
+
+#password {
+  order: 1;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}

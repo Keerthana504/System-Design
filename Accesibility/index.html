@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0
+    maximum-scale=1.0"
+    />
+    <title>Accessibility</title>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#" aria-label="accessibility">Accessibility</a></li>
+          <li><a href="#home" aria-label="home">Home</a></li>
+          <li><a href="#register" aria-label="register">Register</a></li>
+          <li><a href="#about" aria-label="about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        Home
+        <article>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged.
+        </article>
+      </section>
+      <section id="register">
+        <h1>Registration</h1>
+        <form id="registration-form">
+          <section class="details">
+            <label for="cancel" class="btn">
+              <button id="cancel">Cancel</button></label
+            >
+            <label for="submit" class="btn">
+              <button id="submit">Submit</button></label
+            >
+            <label>
+              <span class="labelName">Name</span><input type="name" id="name"
+            /></label>
+            <br />
+            <label
+              ><span class="labelName">Email</span>
+              <input type="email" id="email"
+            /></label>
+            <br />
+            <label
+              ><span class="labelName">Password</span>
+              <input type="password" id="password"
+            /></label>
+          </section>
+        </form>
+      </section>
+      <section id="about">
+        About Us
+        <article>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged.
+        </article>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#" aria-label="accessibility">Accessibility</a></li>
+          <li><a href="#home" aria-label="home">Home</a></li>
+          <li><a href="#register" aria-label="register">Register</a></li>
+          <li><a href="#login" aria-label="about">Login</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
